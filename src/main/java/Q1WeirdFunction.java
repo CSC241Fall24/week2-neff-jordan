@@ -17,7 +17,7 @@ public class Q1WeirdFunction {
             int t1 = 0;
             int t2 = 1;
             int t3 = 2;
-            for(int i = 3; i< n;i++) {
+            for(int i = 3; i<= n;i++) {
                 sum = t3 + 2*t2 + 3*t1;
                 t1 = t2;
                 t2 = t3;
